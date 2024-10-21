@@ -6,7 +6,7 @@
 
 .landing {
 	height: 100vh;
-	background-image: url('../images/landing.jpg');
+	background: #1a2130;
 	background-position: center;
 	background-size: cover;
 	overflow: hidden;
