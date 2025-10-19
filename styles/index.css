@@ -6,6 +6,10 @@
 	color: #eef;
 }
 
+h1 {
+	font-weight: 400;
+}
+
 .landing {
 	height: 100vh;
 	background: #1a2130;
@@ -24,7 +28,7 @@
 }
 
 .parent h1 {
-	font-size: 3rem;
+	font-size: 4rem;
 }
 
 .logo-container {
@@ -35,4 +39,15 @@
 
 .logo-container > img {
 	width: 100%;
+}
+
+.social-icons {
+	margin-top: 20px;
+	display: flex;
+	gap: 20px;
+}
+
+.social-icons img {
+	width: 40px;
+	cursor: pointer;
 }
