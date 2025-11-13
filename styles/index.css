@@ -3,11 +3,19 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-family: 'Road Rage', sans-serif;
-	color: #eef;
+	color: #EDF2F7;
 }
+
+
 
 h1 {
 	font-weight: 400;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+	font-weight: 300;
+	text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
 
 .landing {
@@ -17,6 +25,7 @@ h1 {
 	background-size: cover;
 	overflow: hidden;
 	position: relative;
+	background-image: url('/images/landing.jpg');
 }
 
 .parent {
@@ -25,6 +34,10 @@ h1 {
 	align-items: center;
 	justify-content: center;
 	height: 100%;
+	text-align: center;
+	gap: 40px;
+	overflow-y: auto;
+	
 }
 
 .parent h1 {
@@ -33,8 +46,8 @@ h1 {
 
 .logo-container {
 	margin: 0;
-	width: 600px;
-	max-width: 80%;
+	width: 400px;
+	max-width: 60%;
 }
 
 .logo-container > img {
